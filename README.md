@@ -1,6 +1,6 @@
 # Etcd Extractor
 
-Extracts resources from OpenShift/Kubernetes ETCD backup.
+Extracts resources from OpenShift/Kubernetes ETCD backup. Works with all default Kubernetes/OpenShift resources. Custom CRD will fail as it doesn't know how to deserialize them from protobuf - modify [source code](https://github.com/camabeh/etcd-extractor/blob/master/pkg/etcd.go#L23-L27) to make it work with custom CRD).
 
 ## Use cases
 
