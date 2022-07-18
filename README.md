@@ -5,7 +5,7 @@ Extracts resources from OpenShift/Kubernetes ETCD backup.
 ## Use cases
 
 * Restoring something deleted
-* Safely inspecting etcd database (especially with **wait** command) from snapshot instead of real system
+* Safely inspecting etcd database (especially with **wait** command) from the snapshot instead of a real system
 
 ### Usage
 
