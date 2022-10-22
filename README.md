@@ -9,6 +9,8 @@ Extracts resources from OpenShift/Kubernetes ETCD backup. Works with all default
 
 ### Usage
 
+> It might be necessary to use etcd version to match your backup. [Edit here](https://github.com/camabeh/etcd-extractor/blob/master/Dockerfile#L1) and then run `make docker-build`.
+
 ```
 Usage:
   etcd-extractor [command]
